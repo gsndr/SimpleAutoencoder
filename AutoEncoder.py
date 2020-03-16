@@ -3,7 +3,7 @@ import numpy as np
 
 np.random.seed(12)
 from tensorflow import set_random_seed
-
+#
 set_random_seed(12)
 
 from sklearn.preprocessing import StandardScaler, scale, MinMaxScaler, Normalizer, normalize

@@ -1,6 +1,6 @@
 from __future__ import print_function
 import numpy as np
-
+#
 from hyperopt import Trials, STATUS_OK, tpe, hp
 from keras.datasets import mnist
 from keras.layers.core import Dense, Dropout, Activation
